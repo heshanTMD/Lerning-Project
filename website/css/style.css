@@ -1,0 +1,90 @@
+/*-------------------------
+color, font and variables setup
+---------------------------*/
+
+:root{
+    --c-primary: #975af9;
+    --c-secondry: #46a7f8;
+    --c-background: #e6e6e6;
+    --c-dark: #2d2d2d;
+    --c-black: #000000;
+    --font-base: "poppins", sans-serif;
+}
+
+body{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-weight: 600;
+  }
+
+a {
+    text-decoration: none;
+    color: var(--c-primary);
+  }
+
+a:hover {
+    color: var(--c-secondry);
+ }
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+/*-------------------------
+Button css setup
+---------------------------*/
+
+.btn {
+    font-weight: 600 !important;
+  }
+  
+.btn-primary {
+    background-color: var(--c-primary) !important;
+  }
+  
+.btn-primary:hover {
+    background-color: var(--c-secondry) !important;
+  }
+  
+.btn-light {
+    background-color: var(--c-background) !important;
+  }
+
+/*-------------------------
+Navbar css setup
+---------------------------*/
+
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-dark {
+    background-color: var(--c-black);
+  }
+
+/*-------------------------
+Hero css setup
+---------------------------*/
+
+#Hero {
+    background: url(../img/home/Hero-img.jpg);
+    background-position: top;
+    margin-top: -60px;
+  }
+
+.herotext {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
